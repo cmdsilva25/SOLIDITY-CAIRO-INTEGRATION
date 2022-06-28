@@ -1,0 +1,294 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/Greeter.sol": {
+      "lastModificationDate": 1656422802286,
+      "contentHash": "5db52f9239938c34c674681c4a223d89",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1656422641349,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/interfaces/IStarknetMessaging.sol": {
+      "lastModificationDate": 1655521431431,
+      "contentHash": "c231e3718c3ef31919cccac6f87c0924",
+      "sourceName": "contracts/interfaces/IStarknetMessaging.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IStarknetMessagingEvents.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IStarknetMessaging"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/interfaces/IStarknetMessagingEvents.sol": {
+      "lastModificationDate": 1655521431431,
+      "contentHash": "57a27668ff062c1aeeacc4adbc6bda5e",
+      "sourceName": "contracts/interfaces/IStarknetMessagingEvents.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IStarknetMessagingEvents"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/l1.sol": {
+      "lastModificationDate": 1656422810110,
+      "contentHash": "d467183a32f6b66128ec232881d56259",
+      "sourceName": "contracts/l1.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IStarknetMessaging.sol",
+        "./libraries/helpers/Errors.sol",
+        "./interfaces/IStarknetMessaging.sol",
+        "./libraries/helpers/Cairo.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "l1"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/libraries/helpers/Errors.sol": {
+      "lastModificationDate": 1655521431431,
+      "contentHash": "fcc6471e63c830af5b50a9c007f78ef1",
+      "sourceName": "contracts/libraries/helpers/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/libraries/helpers/Cairo.sol": {
+      "lastModificationDate": 1655521431431,
+      "contentHash": "b1f5e09b198d0e8761648d076adacd76",
+      "sourceName": "contracts/libraries/helpers/Cairo.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Cairo"
+      ]
+    },
+    "/home/cris/cairo/WHOLE-APP/l1/new/contracts/libraries/types/DataTypes.sol": {
+      "lastModificationDate": 1655521431431,
+      "contentHash": "bddb784c9ff9b48c3b2faf32f7b051f4",
+      "sourceName": "contracts/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    }
+  }
+}
